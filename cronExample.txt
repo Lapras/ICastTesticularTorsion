@@ -1,0 +1,5 @@
+Example for establishing an every-minute cronjob
+(sudo crontab -e)
+
+*/1 * * * * localuser   echo abcdefg > /flag.txt
+*/1 * * * * localuser   rm flag.txt
